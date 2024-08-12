@@ -19,10 +19,10 @@
 
   <PropertyGroup>
     <Authors>$(Company)</Authors>
-    <Description>Abstraction layer over YouTube's internal API. Note: this package has limited availability in Russia and Belarus.</Description>
+    <Description>Abstraction layer over YouTube's internal API.</Description>
     <PackageTags>youtube video download playlist user channel closed caption tracks subtitles parse extract metadata info net core standard</PackageTags>
-    <PackageProjectUrl>https://github.com/Tyrrrz/YoutubeExplode</PackageProjectUrl>
-    <PackageReleaseNotes>https://github.com/Tyrrrz/YoutubeExplode/releases</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/FemboyMaid/YoutubeExplode.Goida</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/FemboyMaid/YoutubeExplode.Goida/releases</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 

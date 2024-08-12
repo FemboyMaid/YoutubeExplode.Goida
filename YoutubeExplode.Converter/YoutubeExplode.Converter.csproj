@@ -1,7 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp3.1;net461;net8.0</TargetFrameworks>
+    <PackageId>YoutubeExplode.Converter.Goida</PackageId>
+    <AssemblyName>YoutubeExplode.Converter.Goida</AssemblyName>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net8.0</TargetFrameworks>
     <IsPackable>true</IsPackable>
     <IsTrimmable Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net6.0'))">true</IsTrimmable>
     <IsAotCompatible Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net7.0'))">true</IsAotCompatible>
@@ -9,7 +11,7 @@
 
   <PropertyGroup>
     <Description>Extension for YoutubeExplode that provides an interface to download and convert videos using FFmpeg</Description>
-    <PackageProjectUrl>https://github.com/Tyrrrz/YoutubeExplode/tree/master/YoutubeExplode.Converter</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/FemboyMaid/YoutubeExplode.Goida/tree/master/YoutubeExplode.Converter</PackageProjectUrl>
     <PackageIcon>favicon.png</PackageIcon>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
